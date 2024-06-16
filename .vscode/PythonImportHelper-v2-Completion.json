@@ -1,0 +1,161 @@
+[
+    {
+        "label": "aliases",
+        "importPath": "encodings.aliases",
+        "description": "encodings.aliases",
+        "isExtraImport": true,
+        "detail": "encodings.aliases",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Observer",
+        "importPath": "watchdog.observers",
+        "description": "watchdog.observers",
+        "isExtraImport": true,
+        "detail": "watchdog.observers",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemEventHandler",
+        "importPath": "watchdog.events",
+        "description": "watchdog.events",
+        "isExtraImport": true,
+        "detail": "watchdog.events",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "String Functions.encode",
+        "description": "String Functions.encode",
+        "peekOfCode": "string = 'Astrogeek Sagar'\nencode = string.encode('greek')\nprint(encode) # O/P = b'Astrogeek Sagar'",
+        "detail": "String Functions.encode",
+        "documentation": {}
+    },
+    {
+        "label": "encode",
+        "kind": 5,
+        "importPath": "String Functions.encode",
+        "description": "String Functions.encode",
+        "peekOfCode": "encode = string.encode('greek')\nprint(encode) # O/P = b'Astrogeek Sagar'",
+        "detail": "String Functions.encode",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "string = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"a\")\nprint(finding) # O/P = 11\nstring = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"Monkey\")\nprint(finding) # O/P = -1\nstring = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"a\", 25, 36)\nprint(finding) # O/P = 26\nstring = 'Astro Geek Sagar'",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "finding",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "finding = string.find(\"a\")\nprint(finding) # O/P = 11\nstring = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"Monkey\")\nprint(finding) # O/P = -1\nstring = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"a\", 25, 36)\nprint(finding) # O/P = 26\nstring = 'Astro Geek Sagar'\nsubstring = 'Dhruv Pedigree'",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "string = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"Monkey\")\nprint(finding) # O/P = -1\nstring = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"a\", 25, 36)\nprint(finding) # O/P = 26\nstring = 'Astro Geek Sagar'\nsubstring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "finding",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "finding = string.find(\"Monkey\")\nprint(finding) # O/P = -1\nstring = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"a\", 25, 36)\nprint(finding) # O/P = 26\nstring = 'Astro Geek Sagar'\nsubstring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")\nelse: ",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "string = \"Astrogeek Sagar lives in kanpur and also work in kanpur\"\nfinding = string.find(\"a\", 25, 36)\nprint(finding) # O/P = 26\nstring = 'Astro Geek Sagar'\nsubstring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")\nelse: \n    print(f\"String Doesn't Contains The Word {substring}.\")",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "finding",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "finding = string.find(\"a\", 25, 36)\nprint(finding) # O/P = 26\nstring = 'Astro Geek Sagar'\nsubstring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")\nelse: \n    print(f\"String Doesn't Contains The Word {substring}.\")",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "string = 'Astro Geek Sagar'\nsubstring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")\nelse: \n    print(f\"String Doesn't Contains The Word {substring}.\")",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "substring",
+        "kind": 5,
+        "importPath": "String Functions.find",
+        "description": "String Functions.find",
+        "peekOfCode": "substring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")\nelse: \n    print(f\"String Doesn't Contains The Word {substring}.\")",
+        "detail": "String Functions.find",
+        "documentation": {}
+    },
+    {
+        "label": "Watcher",
+        "kind": 6,
+        "importPath": "String Functions.watcher",
+        "description": "String Functions.watcher",
+        "peekOfCode": "class Watcher:\n    DIRECTORY_TO_WATCH = \".\"\n    def __init__(self):\n        self.observer = Observer()\n    def run(self):\n        event_handler = Handler()\n        self.observer.schedule(\n            event_handler, self.DIRECTORY_TO_WATCH, recursive=False)\n        self.observer.start()\n        try:",
+        "detail": "String Functions.watcher",
+        "documentation": {}
+    },
+    {
+        "label": "Handler",
+        "kind": 6,
+        "importPath": "String Functions.watcher",
+        "description": "String Functions.watcher",
+        "peekOfCode": "class Handler(FileSystemEventHandler):\n    def on_modified(self, event):\n        if event.is_directory:\n            return\n        # print(f\"{event.src_path} has been modified. Running the script...\")\n        print(f\"{event.src_path}\")\n        subprocess.run([\"python\", event.src_path])\nif __name__ == \"__main__\":\n    w = Watcher()\n    w.run()",
+        "detail": "String Functions.watcher",
+        "documentation": {}
+    }
+]
