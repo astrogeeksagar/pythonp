@@ -1,5 +1,3 @@
-from stringfun.encode import string
-
 # # 1.1 Printing The Type Of Number Using type() Yes Args...
 # num = 3
 # typeof = type(num)
@@ -59,4 +57,21 @@ from stringfun.encode import string
 # else :
 #     print('Odd')
 
+# # 7. Absolute Of Number Using abs()
+# num = -3
+# absnum = abs(num)
+# print(absnum) # O/P = 3
 
+# # 8. Round Of Number Using round()
+# num = 3.14
+# roundnum = round(num)
+# print(roundnum) # O/P = 3
+
+# 8.1 Round Of Number Using round() With 2nd Args
+num = 3.143
+roundnum = round(num, 1)
+print(roundnum)  # O/P = 3.1
+
+
+string = "Sagar"
+salary = 25.36

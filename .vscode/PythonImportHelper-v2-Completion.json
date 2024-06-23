@@ -1,13 +1,5 @@
 [
     {
-        "label": "string",
-        "importPath": "stringfun.encode",
-        "description": "stringfun.encode",
-        "isExtraImport": true,
-        "detail": "stringfun.encode",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -88,6 +80,69 @@
         "description": "encodings.aliases",
         "isExtraImport": true,
         "detail": "encodings.aliases",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "num = 3.143\nroundnum = round(num, 1)\nprint(roundnum)  # O/P = 3.1\nstring = \"Sagar\"\nsalary = 25.36",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "roundnum",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "roundnum = round(num, 1)\nprint(roundnum)  # O/P = 3.1\nstring = \"Sagar\"\nsalary = 25.36",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "string = \"Sagar\"\nsalary = 25.36",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "salary",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "salary = 25.36",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "num.sum",
+        "description": "num.sum",
+        "peekOfCode": "num1 = input(\"Enter First Num: \")\nnum2 = input(\"Enter Second Num: \")\nsum = int(num1) + int(num2)\nprint(\"The Sum is: \" + str(sum))",
+        "detail": "num.sum",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "num.sum",
+        "description": "num.sum",
+        "peekOfCode": "num2 = input(\"Enter Second Num: \")\nsum = int(num1) + int(num2)\nprint(\"The Sum is: \" + str(sum))",
+        "detail": "num.sum",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "num.sum",
+        "description": "num.sum",
+        "peekOfCode": "sum = int(num1) + int(num2)\nprint(\"The Sum is: \" + str(sum))",
+        "detail": "num.sum",
         "documentation": {}
     },
     {
@@ -196,6 +251,24 @@
         "description": "stringfun.find",
         "peekOfCode": "substring = 'Dhruv Pedigree'\nif string.find(substring) != -1 :\n    print(f\"String Contains The Word {substring}.\")\nelse: \n    print(f\"String Doesn't Contains The Word {substring}.\")",
         "detail": "stringfun.find",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "stringfun.stringfun",
+        "description": "stringfun.stringfun",
+        "peekOfCode": "string = \"Astrogeek Sagar\"\nfinding = \"ro\" in string\nprint(finding) # O/P = true",
+        "detail": "stringfun.stringfun",
+        "documentation": {}
+    },
+    {
+        "label": "finding",
+        "kind": 5,
+        "importPath": "stringfun.stringfun",
+        "description": "stringfun.stringfun",
+        "peekOfCode": "finding = \"ro\" in string\nprint(finding) # O/P = true",
+        "detail": "stringfun.stringfun",
         "documentation": {}
     },
     {

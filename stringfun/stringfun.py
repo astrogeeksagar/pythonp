@@ -112,3 +112,8 @@
 # string = "S"
 # ord = ord(string)
 # print(ord) # O/P 83
+
+# 20. Finding A Character In A String Using in Return Boolean
+string = "Astrogeek Sagar"
+finding = "ro" in string
+print(finding) # O/P = true
