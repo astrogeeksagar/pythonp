@@ -1,10 +1,10 @@
 [
     {
-        "label": "aliases",
-        "importPath": "encodings.aliases",
-        "description": "encodings.aliases",
+        "label": "string",
+        "importPath": "stringfun.encode",
+        "description": "stringfun.encode",
         "isExtraImport": true,
-        "detail": "encodings.aliases",
+        "detail": "stringfun.encode",
         "documentation": {}
     },
     {
@@ -42,6 +42,22 @@
         "documentation": {}
     },
     {
+        "label": "Observer",
+        "importPath": "watchdog.observers",
+        "description": "watchdog.observers",
+        "isExtraImport": true,
+        "detail": "watchdog.observers",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemEventHandler",
+        "importPath": "watchdog.events",
+        "description": "watchdog.events",
+        "isExtraImport": true,
+        "detail": "watchdog.events",
+        "documentation": {}
+    },
+    {
         "label": "FileSystemEventHandler",
         "importPath": "watchdog.events",
         "description": "watchdog.events",
@@ -64,6 +80,32 @@
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "aliases",
+        "importPath": "encodings.aliases",
+        "description": "encodings.aliases",
+        "isExtraImport": true,
+        "detail": "encodings.aliases",
+        "documentation": {}
+    },
+    {
+        "label": "Watcher",
+        "kind": 6,
+        "importPath": "num.watcher",
+        "description": "num.watcher",
+        "peekOfCode": "class Watcher:\n    DIRECTORY_TO_WATCH = \".\"\n    def __init__(self):\n        self.observer = Observer()\n    def run(self):\n        event_handler = Handler()\n        self.observer.schedule(\n            event_handler, self.DIRECTORY_TO_WATCH, recursive=False)\n        self.observer.start()\n        try:",
+        "detail": "num.watcher",
+        "documentation": {}
+    },
+    {
+        "label": "Handler",
+        "kind": 6,
+        "importPath": "num.watcher",
+        "description": "num.watcher",
+        "peekOfCode": "class Handler(FileSystemEventHandler):\n    def on_modified(self, event):\n        if event.is_directory:\n            return\n        # print(f\"{event.src_path} has been modified. Running the script...\")\n        print(f\"{event.src_path}\")\n        subprocess.run([\"python\", event.src_path])\nif __name__ == \"__main__\":\n    w = Watcher()\n    w.run()",
+        "detail": "num.watcher",
         "documentation": {}
     },
     {
