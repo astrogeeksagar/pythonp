@@ -67,11 +67,13 @@
 # roundnum = round(num)
 # print(roundnum) # O/P = 3
 
-# 8.1 Round Of Number Using round() With 2nd Args
-num = 3.143
-roundnum = round(num, 1)
-print(roundnum)  # O/P = 3.1
+# # 8.1 Round Of Number Using round() With 2nd Args
+# num = 3.143
+# roundnum = round(num, 1)
+# print(roundnum)  # O/P = 3.1
 
+# # 9. Convert Number To String Using str()
+# num = 3
+# strnum = str(num)
+# print(strnum) # O/P = '3'
 
-string = "Sagar"
-salary = 25.36

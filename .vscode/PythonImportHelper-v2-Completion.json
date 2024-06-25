@@ -83,42 +83,6 @@
         "documentation": {}
     },
     {
-        "label": "num",
-        "kind": 5,
-        "importPath": "num.numeric",
-        "description": "num.numeric",
-        "peekOfCode": "num = 3.143\nroundnum = round(num, 1)\nprint(roundnum)  # O/P = 3.1\nstring = \"Sagar\"\nsalary = 25.36",
-        "detail": "num.numeric",
-        "documentation": {}
-    },
-    {
-        "label": "roundnum",
-        "kind": 5,
-        "importPath": "num.numeric",
-        "description": "num.numeric",
-        "peekOfCode": "roundnum = round(num, 1)\nprint(roundnum)  # O/P = 3.1\nstring = \"Sagar\"\nsalary = 25.36",
-        "detail": "num.numeric",
-        "documentation": {}
-    },
-    {
-        "label": "string",
-        "kind": 5,
-        "importPath": "num.numeric",
-        "description": "num.numeric",
-        "peekOfCode": "string = \"Sagar\"\nsalary = 25.36",
-        "detail": "num.numeric",
-        "documentation": {}
-    },
-    {
-        "label": "salary",
-        "kind": 5,
-        "importPath": "num.numeric",
-        "description": "num.numeric",
-        "peekOfCode": "salary = 25.36",
-        "detail": "num.numeric",
-        "documentation": {}
-    },
-    {
         "label": "num1",
         "kind": 5,
         "importPath": "num.sum",
