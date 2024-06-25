@@ -1,3 +1,4 @@
+import math
 # # 1.1 Printing The Type Of Number Using type() Yes Args...
 # num = 3
 # typeof = type(num)
@@ -97,8 +98,21 @@
 # sum = sum(nums)
 # print(sum) # O/P = 99.5
 
-# 12. Finding Power Of A Number With pow() Yes Args...
-num = 2
-exponent = 3
-pow = pow(num, exponent)
-print(pow) # O/P = 8
+# # 12. Finding Power Of A Number With pow() Yes Args...
+# num = 2
+# exponent = 3
+# pow = pow(num, exponent)
+# print(pow) # O/P = 8
+
+# # 13. Using divmod It Returns The Pair(tuple) Of Given Two Numbers
+# num1 = 13
+# num2 = 3
+# divmod = divmod(num1, num2)
+# print(divmod)
+
+# # 14 Floor And Cealing
+# num = 5.6
+# floor = math.floor(num)
+# print(floor) # O/P = 5
+# ceil = math.ceil(num)
+# print(ceil) # O/P = 6
