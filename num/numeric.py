@@ -77,3 +77,28 @@
 # strnum = str(num)
 # print(strnum) # O/P = '3'
 
+# # 10. Absolute Value
+# num = -76
+# abs = abs(num)
+# print(abs) # O/P = 76
+
+# # 11.1 Findin Maximum In Number Array
+# nums = [4, 9, 54, 7, 25]
+# max = max(nums)
+# print(max) # O/P = 54
+
+# # 11.2 Findin Minimum In Number Array
+# nums = [4, 9, 54, 7, 25]
+# min = min(nums)
+# print(min) # O/P = 4
+
+# # 11.3 Sum In Number Array
+# nums = [4, 9, 54, 7.5, 25]
+# sum = sum(nums)
+# print(sum) # O/P = 99.5
+
+# 12. Finding Power Of A Number With pow() Yes Args...
+num = 2
+exponent = 3
+pow = pow(num, exponent)
+print(pow) # O/P = 8
