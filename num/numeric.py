@@ -68,6 +68,7 @@ import math
 # roundnum = round(num)
 # print(roundnum) # O/P = 3
 
+<<<<<<< HEAD
 # # 8.1 Round Of Number Using round() With 2nd Args
 # num = 3.143
 # roundnum = round(num, 1)
@@ -116,3 +117,16 @@ import math
 # print(floor) # O/P = 5
 # ceil = math.ceil(num)
 # print(ceil) # O/P = 6
+=======
+# 8.1 Round Of Number Using round() With 2nd Args
+num = 3.143
+roundnum = round(num, 1)
+# print(roundnum)  # O/P = 3.1
+
+string = "Sagar"
+salary = 25.45
+newsalary = 2000
+observer = "Sagar is a web developer"
+
+print("{} and salary is {} and old salary is {}".format(observer, newsalary, salary))
+>>>>>>> 308124a (Group By Coded Added)

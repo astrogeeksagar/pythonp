@@ -1,5 +1,14 @@
 [
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -42,6 +51,22 @@
         "documentation": {}
     },
     {
+        "label": "Observer",
+        "importPath": "watchdog.observers",
+        "description": "watchdog.observers",
+        "isExtraImport": true,
+        "detail": "watchdog.observers",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemEventHandler",
+        "importPath": "watchdog.events",
+        "description": "watchdog.events",
+        "isExtraImport": true,
+        "detail": "watchdog.events",
+        "documentation": {}
+    },
+    {
         "label": "FileSystemEventHandler",
         "importPath": "watchdog.events",
         "description": "watchdog.events",
@@ -75,11 +100,108 @@
         "documentation": {}
     },
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Linkedin",
+        "importPath": "linkedin",
+        "description": "linkedin",
+        "isExtraImport": true,
+        "detail": "linkedin",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "aliases",
         "importPath": "encodings.aliases",
         "description": "encodings.aliases",
         "isExtraImport": true,
         "detail": "encodings.aliases",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "num = 3.143\nroundnum = round(num, 1)\n# print(roundnum)  # O/P = 3.1\nstring = \"Sagar\"\nsalary = 25.45\nnewsalary = 2000\nobserver = \"Sagar is a web developer\"\nprint(\"{} and salary is {} and old salary is {}\".format(observer, newsalary, salary))\n>>>>>>> 308124a (Group By Coded Added)",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "roundnum",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "roundnum = round(num, 1)\n# print(roundnum)  # O/P = 3.1\nstring = \"Sagar\"\nsalary = 25.45\nnewsalary = 2000\nobserver = \"Sagar is a web developer\"\nprint(\"{} and salary is {} and old salary is {}\".format(observer, newsalary, salary))\n>>>>>>> 308124a (Group By Coded Added)",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "string = \"Sagar\"\nsalary = 25.45\nnewsalary = 2000\nobserver = \"Sagar is a web developer\"\nprint(\"{} and salary is {} and old salary is {}\".format(observer, newsalary, salary))\n>>>>>>> 308124a (Group By Coded Added)",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "salary",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "salary = 25.45\nnewsalary = 2000\nobserver = \"Sagar is a web developer\"\nprint(\"{} and salary is {} and old salary is {}\".format(observer, newsalary, salary))\n>>>>>>> 308124a (Group By Coded Added)",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "newsalary",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "newsalary = 2000\nobserver = \"Sagar is a web developer\"\nprint(\"{} and salary is {} and old salary is {}\".format(observer, newsalary, salary))\n>>>>>>> 308124a (Group By Coded Added)",
+        "detail": "num.numeric",
+        "documentation": {}
+    },
+    {
+        "label": "observer",
+        "kind": 5,
+        "importPath": "num.numeric",
+        "description": "num.numeric",
+        "peekOfCode": "observer = \"Sagar is a web developer\"\nprint(\"{} and salary is {} and old salary is {}\".format(observer, newsalary, salary))\n>>>>>>> 308124a (Group By Coded Added)",
+        "detail": "num.numeric",
         "documentation": {}
     },
     {
@@ -125,6 +247,96 @@
         "description": "num.watcher",
         "peekOfCode": "class Handler(FileSystemEventHandler):\n    def on_modified(self, event):\n        if event.is_directory:\n            return\n        # print(f\"{event.src_path} has been modified. Running the script...\")\n        print(f\"{event.src_path}\")\n        subprocess.run([\"python\", event.src_path])\nif __name__ == \"__main__\":\n    w = Watcher()\n    w.run()",
         "detail": "num.watcher",
+        "documentation": {}
+    },
+    {
+        "label": "get_access_token",
+        "kind": 2,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "def get_access_token():\n    \"\"\"Simulate getting an access token. In a real app, this would involve OAuth flow.\"\"\"\n    # This is a placeholder. You'd typically use OAuth 2.0 flow to get a real token.\n    return \"your_access_token\"\ndef get_profile_data(username):\n    # Initialize the Linkedin client\n    api = Linkedin(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)\n    # Set the access token\n    api.authentication.token = get_access_token()\n    try:",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_data",
+        "kind": 2,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "def get_profile_data(username):\n    # Initialize the Linkedin client\n    api = Linkedin(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)\n    # Set the access token\n    api.authentication.token = get_access_token()\n    try:\n        # Fetch the profile data\n        profile = api.get_profile(username)\n        # Extract relevant information\n        data = {",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "CLIENT_ID",
+        "kind": 5,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "CLIENT_ID = '77fdnmwvwzkv3m'\nCLIENT_SECRET = 'bNVnHunuvmxYsx24'\nREDIRECT_URI = 'your_redirect_uri'\ndef get_access_token():\n    \"\"\"Simulate getting an access token. In a real app, this would involve OAuth flow.\"\"\"\n    # This is a placeholder. You'd typically use OAuth 2.0 flow to get a real token.\n    return \"your_access_token\"\ndef get_profile_data(username):\n    # Initialize the Linkedin client\n    api = Linkedin(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "CLIENT_SECRET",
+        "kind": 5,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "CLIENT_SECRET = 'bNVnHunuvmxYsx24'\nREDIRECT_URI = 'your_redirect_uri'\ndef get_access_token():\n    \"\"\"Simulate getting an access token. In a real app, this would involve OAuth flow.\"\"\"\n    # This is a placeholder. You'd typically use OAuth 2.0 flow to get a real token.\n    return \"your_access_token\"\ndef get_profile_data(username):\n    # Initialize the Linkedin client\n    api = Linkedin(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)\n    # Set the access token",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "REDIRECT_URI",
+        "kind": 5,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "REDIRECT_URI = 'your_redirect_uri'\ndef get_access_token():\n    \"\"\"Simulate getting an access token. In a real app, this would involve OAuth flow.\"\"\"\n    # This is a placeholder. You'd typically use OAuth 2.0 flow to get a real token.\n    return \"your_access_token\"\ndef get_profile_data(username):\n    # Initialize the Linkedin client\n    api = Linkedin(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)\n    # Set the access token\n    api.authentication.token = get_access_token()",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "username = \"john-doe\"\nprofile_data = get_profile_data(username)\nif profile_data:\n    for key, value in profile_data.items():\n        print(f\"{key}: {value}\")\nelse:\n    print(\"Failed to retrieve profile data.\")",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "profile_data",
+        "kind": 5,
+        "importPath": "scripts.index",
+        "description": "scripts.index",
+        "peekOfCode": "profile_data = get_profile_data(username)\nif profile_data:\n    for key, value in profile_data.items():\n        print(f\"{key}: {value}\")\nelse:\n    print(\"Failed to retrieve profile data.\")",
+        "detail": "scripts.index",
+        "documentation": {}
+    },
+    {
+        "label": "LinkedIn",
+        "kind": 6,
+        "importPath": "scripts.linkedin",
+        "description": "scripts.linkedin",
+        "peekOfCode": "class LinkedIn:\n    def __init__(self):\n        self.s = requests.Session()\n        self.headers = {\n            \"user-agent\": \"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 OPR/67.0.3575.97\"\n            }\n    def login(self,email,password):\n        try:\n            sc = self.s.get(\"https://www.linkedin.com/login\", headers=self.headers).text\n        except:",
+        "detail": "scripts.linkedin",
+        "documentation": {}
+    },
+    {
+        "label": "Watcher",
+        "kind": 6,
+        "importPath": "scripts.watcher",
+        "description": "scripts.watcher",
+        "peekOfCode": "class Watcher:\n    DIRECTORY_TO_WATCH = \".\"\n    def __init__(self):\n        self.observer = Observer()\n    def run(self):\n        event_handler = Handler()\n        self.observer.schedule(\n            event_handler, self.DIRECTORY_TO_WATCH, recursive=False)\n        self.observer.start()\n        try:",
+        "detail": "scripts.watcher",
+        "documentation": {}
+    },
+    {
+        "label": "Handler",
+        "kind": 6,
+        "importPath": "scripts.watcher",
+        "description": "scripts.watcher",
+        "peekOfCode": "class Handler(FileSystemEventHandler):\n    def on_modified(self, event):\n        if event.is_directory:\n            return\n        # print(f\"{event.src_path} has been modified. Running the script...\")\n        print(f\"{event.src_path}\")\n        subprocess.run([\"python\", event.src_path])\nif __name__ == \"__main__\":\n    w = Watcher()\n    w.run()",
+        "detail": "scripts.watcher",
         "documentation": {}
     },
     {
@@ -251,6 +463,24 @@
         "description": "stringfun.watcher",
         "peekOfCode": "class Handler(FileSystemEventHandler):\n    def on_modified(self, event):\n        if event.is_directory:\n            return\n        # print(f\"{event.src_path} has been modified. Running the script...\")\n        print(f\"{event.src_path}\")\n        subprocess.run([\"python\", event.src_path])\nif __name__ == \"__main__\":\n    w = Watcher()\n    w.run()",
         "detail": "stringfun.watcher",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "kind": 5,
+        "importPath": "group",
+        "description": "group",
+        "peekOfCode": "items = [\n    {\"sn\": 20, \"propertyid\": 103, \"docid\": 37, \"restaurantname\": \"ROOM SERVICE\", \"restcode\": \"RS103\", \"kitchen\": \"NONV103\", \"printerpath\": \"\\\\\\\\satyamavasthiz\\\\HPReceipt\", \"itemsn\": 1, \"itemname\": \"BURNT GARLIC CHICKEN\", \"itemprice\": 395.00, \"quantity\": 1, \"created_at\": \"2024-09-09 17:54:43\"},\n    {\"sn\": 21, \"propertyid\": 103, \"docid\": 37, \"restaurantname\": \"ROOM SERVICE\", \"restcode\": \"RS103\", \"kitchen\": \"VEG103\", \"printerpath\": \"\\\\\\\\CosmicPulse\\\\HPReceipt\", \"itemsn\": 2, \"itemname\": \"BUTTER NAAN\", \"itemprice\": 110.00, \"quantity\": 1, \"created_at\": \"2024-09-09 17:54:43\"},\n    {\"sn\": 22, \"propertyid\": 103, \"docid\": 38, \"restaurantname\": \"ROOM SERVICE\", \"restcode\": \"RS103\", \"kitchen\": \"VEG103\", \"printerpath\": \"\\\\\\\\CosmicPulse\\\\HPReceipt\", \"itemsn\": 3, \"itemname\": \"PANEER TIKKA\", \"itemprice\": 200.00, \"quantity\": 2, \"created_at\": \"2024-09-09 17:55:43\"},\n    {\"sn\": 23, \"propertyid\": 103, \"docid\": 39, \"restaurantname\": \"ROOM SERVICE\", \"restcode\": \"RS103\", \"kitchen\": \"NONV103\", \"printerpath\": \"\\\\\\\\satyamavasthiz\\\\HPReceipt\", \"itemsn\": 4, \"itemname\": \"CHICKEN BIRYANI\", \"itemprice\": 450.00, \"quantity\": 1, \"created_at\": \"2024-09-09 18:00:43\"},\n    {\"sn\": 24, \"propertyid\": 103, \"docid\": 39, \"restaurantname\": \"ROOM SERVICE\", \"restcode\": \"RS103\", \"kitchen\": \"VEG103\", \"printerpath\": \"\\\\\\\\CosmicPulse\\\\HPReceipt\", \"itemsn\": 5, \"itemname\": \"VEG FRIED RICE\", \"itemprice\": 150.00, \"quantity\": 1, \"created_at\": \"2024-09-09 18:10:43\"},\n]\n# Create a defaultdict to group items by kitchen\ngrouped_items = defaultdict(list)\n# Loop through the items and group them by kitchen",
+        "detail": "group",
+        "documentation": {}
+    },
+    {
+        "label": "grouped_items",
+        "kind": 5,
+        "importPath": "group",
+        "description": "group",
+        "peekOfCode": "grouped_items = defaultdict(list)\n# Loop through the items and group them by kitchen\nfor item in items:\n    kitchen = item['kitchen']\n    grouped_items[kitchen].append(item)\n# Save each group to a separate .txt file and send to printer\nfor kitchen, kitchen_items in grouped_items.items():\n    filename = f\"{kitchen}_items.txt\"\n    # Write the grouped items to the text file\n    with open(filename, 'w') as f:",
+        "detail": "group",
         "documentation": {}
     },
     {
